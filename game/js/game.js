@@ -145,7 +145,7 @@ function sellPrice() {
 function coped () {
     let vaidCopy = "💰 " + goldAll.innerHTML + "\n🪵 " + woodAll.innerHTML + "\n👤 " + personAll.innerHTML + "\n🪨 " + stoneAll.innerHTML + "\n🌾 " + wheatAll.innerHTML + "\n🥩 " + meatAll.innerHTML + "\n🎭 " + happyAll.innerHTML ;
     navigator.clipboard.writeText(resultName.innerHTML + "\n \n" + vaidCopy)
-    alert("کپی شد\n حالا میتونی خریداتو بفرستی برای گاد!")
+    alert("کپی شد\n حالا میتونی خرید یا بازدهی ها تو بفرستی برای گاد!")
 }
 
 btnJade.addEventListener('click', jade)
